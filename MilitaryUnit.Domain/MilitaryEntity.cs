@@ -8,7 +8,7 @@ namespace MilitaryUnit.Domain
 {
     public class MilitaryEntity
     {
-        public virtual void Move()
+        public virtual void Movement()
         {
             Console.WriteLine("Basic Movements");
         }

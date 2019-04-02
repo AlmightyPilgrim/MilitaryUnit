@@ -13,7 +13,7 @@ namespace MilitaryUnit.Domain.MilitaryEntities
 
         }
 
-        public override void Move()
+        public override void Movement()
         {
             Console.WriteLine("Faster than the infantry");
         }

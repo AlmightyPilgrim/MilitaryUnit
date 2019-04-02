@@ -17,10 +17,17 @@ namespace MilitaryUnit
             Armor tank = new Armor();
             Artillery biggun = new Artillery();
 
-            soldier.Move();
-            planes.Move();
-            tank.Move();
-            biggun.Move();
+            soldier.Movement();
+            planes.Movement();
+            tank.Movement();
+            biggun.Movement();
+
+            List<MilitaryEntity> testFire = new List<MilitaryEntity> { new Infantry(), new Armor(), new AirSupport(), new Artillery() };
+
+            foreach (var fire in testFire)
+            {
+                fire.WeaponFire();
+            }
         }
     }
 }
