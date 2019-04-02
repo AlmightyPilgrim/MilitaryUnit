@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryUnit", "MilitaryUnit\MilitaryUnit.csproj", "{39A7AB44-A55A-48D5-9568-EDAC425A65F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryUnit.Domain", "MilitaryUnit.Domain\MilitaryUnit.Domain.csproj", "{FAC2FEA8-73BF-4A7F-B48D-E5A3629F59A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilitaryUnit.Test", "MilitaryUnit.Test\MilitaryUnit.Test.csproj", "{0B90F7BC-0D23-46F3-BFD4-7D2E0834BCA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{39A7AB44-A55A-48D5-9568-EDAC425A65F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39A7AB44-A55A-48D5-9568-EDAC425A65F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39A7AB44-A55A-48D5-9568-EDAC425A65F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC2FEA8-73BF-4A7F-B48D-E5A3629F59A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC2FEA8-73BF-4A7F-B48D-E5A3629F59A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC2FEA8-73BF-4A7F-B48D-E5A3629F59A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC2FEA8-73BF-4A7F-B48D-E5A3629F59A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B90F7BC-0D23-46F3-BFD4-7D2E0834BCA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B90F7BC-0D23-46F3-BFD4-7D2E0834BCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B90F7BC-0D23-46F3-BFD4-7D2E0834BCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B90F7BC-0D23-46F3-BFD4-7D2E0834BCA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
