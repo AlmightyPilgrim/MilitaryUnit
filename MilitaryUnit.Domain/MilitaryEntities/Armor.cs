@@ -8,5 +8,14 @@ namespace MilitaryUnit.Domain.MilitaryEntities
 {
     public class Armor : MilitaryEntity
     {
+        public Armor()
+        {
+
+        }
+
+        public override void Move()
+        {
+            Console.WriteLine("Faster than the infantry");
+        }
     }
 }

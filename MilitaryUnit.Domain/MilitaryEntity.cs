@@ -15,7 +15,7 @@ namespace MilitaryUnit.Domain
 
         public void WeaponFire()
         {
-            Console.WriteLine("Pew Pew Pew, with the occasional bang");
+            Console.WriteLine("Pew Pew Pew, with the occasional boom");
         }
     }
 }

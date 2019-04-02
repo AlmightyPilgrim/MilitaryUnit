@@ -8,6 +8,14 @@ namespace MilitaryUnit.Domain.MilitaryEntities
 {
     public class AirSupport : MilitaryEntity
     {
-        
+        public AirSupport()
+        {
+
+        }
+
+        public override void Move()
+        {
+            Console.WriteLine("These go faster than all other pieces of military equipment");
+        }
     }
 }

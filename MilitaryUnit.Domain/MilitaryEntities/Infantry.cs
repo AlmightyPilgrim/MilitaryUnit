@@ -8,5 +8,9 @@ namespace MilitaryUnit.Domain.MilitaryEntities
 {
     public class Infantry : MilitaryEntity
     {
+        public Infantry()
+        {
+
+        }
     }
 }

@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MilitaryUnit.Domain\MilitaryUnit.Domain.csproj">
+      <Project>{fac2fea8-73bf-4a7f-b48d-e5a3629f59a5}</Project>
+      <Name>MilitaryUnit.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MilitaryUnit.Test\MilitaryUnit.Test.csproj">
+      <Project>{0b90f7bc-0d23-46f3-bfd4-7d2e0834bca0}</Project>
+      <Name>MilitaryUnit.Test</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
